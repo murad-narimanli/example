@@ -1,0 +1,38 @@
+.filter-box {
+  width: 100%;
+  float: left;
+  background-color: white;
+  min-height: 100px;
+  padding: 20px;
+}
+
+.ant-btn[disabled],
+.ant-btn[disabled]:hover,
+.ant-btn[disabled]:focus,
+.ant-btn[disabled]:active {
+  background-color: #d9d9d9 !important;
+  border-color: #d9d9d9 !important;
+  color: white !important;
+}
+
+.worker-stats {
+  width: 100%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.worker-stats .worker-stat {
+  width: 32%;
+  background-color: white;
+}
+
+.headtr {
+  background-color: #51bfa4 !important;
+  color: white;
+}
+/*# sourceMappingURL=stats.css.map */

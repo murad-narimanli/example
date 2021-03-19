@@ -1,0 +1,70 @@
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+
+  .web {
+    display: none;
+  }
+}
+.drawer-logo {
+  max-height: 50px;
+}
+
+.sider-btn {
+  height: 75px;
+}
+
+.flex.end-btn {
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.menu-ul {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* width */
+.menu-ul::-webkit-scrollbar,
+.ant-modal-body::-webkit-scrollbar {
+  width: 7px;
+  -webkit-appearance: none;
+}
+
+/* Track */
+.menu-ul::-webkit-scrollbar-track,
+.ant-modal-body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  -webkit-appearance: none;
+}
+
+/* Handle */
+.menu-ul::-webkit-scrollbar-thumb,
+.ant-modal-body::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;
+  -webkit-appearance: none;
+}
+
+.menu-ul, .ant-modal-body {
+  scrollbar-face-color: #d2d2d2;
+  /* Firefox 63 compatibility */
+  scrollbar-track-color: white;
+  /* Firefox 63 compatibility */
+  scrollbar-color: white;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-scrollbar-width: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=custom.css.map */

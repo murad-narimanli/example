@@ -1,0 +1,79 @@
+.admin-login-box {
+  width: 400px;
+  padding: 20px 30px;
+}
+.admin-login-box .admin-login-row input {
+  width: 100%;
+  height: 45px;
+  padding: 0 10px;
+  background-color: #ebe6e2;
+  color: #22453e;
+  font-weight: bold;
+  margin: 15px 0 5px 0;
+  outline: 0;
+}
+.admin-login-box .admin-login-row input:focus {
+  box-shadow: 0 0 2px 0 #327867;
+}
+.admin-login-box .admin-login-row input[type=submit] {
+  background-color: #51bfa4;
+  color: white;
+  cursor: pointer;
+}
+.admin-login-box .admin-login-row input[type=submit]:hover {
+  background-color: #327867;
+}
+
+.example {
+  margin: 12px;
+}
+
+/* Force update ant style */
+.ant-input {
+  height: 40px !important;
+  margin-top: 10px !important;
+}
+
+.login-page input,
+.login-page .ant-input {
+  border: none;
+}
+
+.ant-select .ant-select-selector {
+  padding: 16px 10px 4px 11px;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  padding: 16px 10px 4px 11px;
+  height: 48px;
+}
+
+.ant-select-single .ant-select-selector .ant-select-selection-search {
+  top: 16px;
+}
+
+.float-label {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 12px;
+  top: 22px;
+  transition: 0.2s ease all;
+  z-index: 10 !important;
+}
+
+.label-float {
+  top: -8px;
+  left: 0px;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 1px 2px;
+}
+
+/*# sourceMappingURL=login.css.map */

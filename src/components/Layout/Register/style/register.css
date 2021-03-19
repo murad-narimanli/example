@@ -1,0 +1,79 @@
+.register-container {
+  height: 100vh;
+}
+
+.register-container .register-box {
+  width: 100%;
+  padding: 50px;
+}
+
+.register-container .register-box .has-error .ant-form-explain, .register-container .register-box .has-error .ant-form-split {
+  position: absolute;
+}
+
+.register-container .register-box .ant-select-selection__placeholder, .register-container .register-box .ant-select-search__field__placeholder {
+  left: 10px;
+}
+
+.register-container .register-box .ant-form-item {
+  margin-bottom: 6px;
+}
+
+.register-container .register-box .ant-form-item .ant-input-group-addon {
+  background: white;
+  padding: 0;
+}
+
+.register-container .register-box .ant-form-item .ant-input-group-addon .addButton {
+  height: 38px;
+  padding: 10px;
+  font-size: 11px;
+  color: #51bfa4;
+}
+
+.register-container .register-box .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: #327867;
+}
+
+.register-container .register-box .ant-steps-item-process .ant-steps-item-icon {
+  background: #51bfa4;
+  border-color: #327867;
+}
+
+.register-container .register-box .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+  background: #327867;
+}
+
+.register-container .register-box .ant-steps-item-finish .ant-steps-item-icon, .register-container .register-box .ant-steps .ant-steps-item:not(.ant-steps-item-active):not(.ant-steps-item-process) > .ant-steps-item-container[role='button']:hover .ant-steps-item-icon {
+  border-color: #327867;
+}
+
+.register-container .register-box .ant-steps .ant-steps-item:not(.ant-steps-item-active) > .ant-steps-item-container[role='button']:hover .ant-steps-item-title, .register-container .register-box .ant-steps .ant-steps-item:not(.ant-steps-item-active) > .ant-steps-item-container[role='button']:hover .ant-steps-item-subtitle, .register-container .register-box .ant-steps .ant-steps-item:not(.ant-steps-item-active) > .ant-steps-item-container[role='button']:hover .ant-steps-item-description, .register-container .register-box .ant-steps .ant-steps-item:not(.ant-steps-item-active):not(.ant-steps-item-process) > .ant-steps-item-container[role='button']:hover .ant-steps-item-icon .ant-steps-icon {
+  color: #327867;
+}
+
+@media (max-width: 767px) {
+  .register-container {
+    height: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .register-container .register-box {
+    padding: 30px;
+  }
+  .price-radios {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .price-radios label {
+    margin: 5px 0px !important;
+  }
+}
+/*# sourceMappingURL=register.css.map */
